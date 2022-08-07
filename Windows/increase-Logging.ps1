@@ -1,6 +1,6 @@
 #Author: Avesta Fahimipour 
 #
-#No guarantees, no warranties, and no right reserved.
+#No guarantees, no warranties, and no rights reserved.
 #
 #
 #
