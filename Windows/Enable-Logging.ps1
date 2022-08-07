@@ -1,6 +1,6 @@
 #Author: Avesta Fahimipour 
 #
-#No guarantees, no warranties, and no right reserved.
+#No guarantees, no warranties, and no rights reserved.
 #
 #This script is intended to be a simple way for cyber security engineers to enable tactical logging on their windows endpoints.
 #
@@ -136,15 +136,6 @@ auditpol /set /subcategory:"security group management" /Success:Enable /Failure:
 auditpol /set /subcategory:"Special Logon" /Success:Enable 
 
 auditpol /set /subcategory:"Process Creation" /Success:Enable 
-
-
-
-
-
-
-
-
-
 
 
 
