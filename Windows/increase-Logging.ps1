@@ -1,23 +1,6 @@
-# No guarantees, no warranties, and no right reserved.
+#Author: Avesta Fahimipour 
 #
-# This script is intended to be a simple way for cyber security engineers to enable tactical
-# logging on their windows endpoints.
-#
-# I avesta have only gathered all the open source information and have grouped it all into one script.
-#
-# You only need to run the script and enjoy all the logs.
-# 
-#
-# 
-#
-#
-#
-#
-#
-#
-#
-#
-#
+#No guarantees, no warranties, and no right reserved.
 #
 #
 #
@@ -27,8 +10,6 @@
 #
 #
 #
-
-
 
 Limit-EventLog -LogName System -MaximumSize 20480KB
 Limit-EventLog -LogName Security -MaximumSize 20480KB
