@@ -11,10 +11,10 @@
 #
 #
 
-Limit-EventLog -LogName System -MaximumSize 20480KB
-Limit-EventLog -LogName Security -MaximumSize 20480KB
-Limit-EventLog -LogName Application -MaximumSize 20480KB
-
+Limit-EventLog -LogName System -MaximumSize 2GB
+Limit-EventLog -LogName Security -MaximumSize 2GB
+Limit-EventLog -LogName Application -MaximumSize 2GB
+Limit-EventLog -LogName 'Windows PowerShell' -MaximumSize 2GB
 
 # Feel free to add more.
 
