@@ -16,4 +16,5 @@ https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server
 
 
 ## IIS
-You should use the W3C format for IIS logging. You can optionally enable the fields not selected even if they are being captured from other sources.
+You should use the W3C format for IIS logging.  
+You can optionally enable the fields not selected even if they are being captured from other sources.
