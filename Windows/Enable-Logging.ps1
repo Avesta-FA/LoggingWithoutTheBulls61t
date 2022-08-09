@@ -140,7 +140,7 @@ auditpol /set /subcategory:"Process Creation" /Success:Enable
 
 
 #The key below enables command line auditing for process creation.  
-#The gpo located at Computer Configuration > Administrative templates > System > Audit Process Creation.  
+#The gpo location is Computer Configuration > Administrative templates > System > Audit Process Creation.  
 reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit" /v ProcessCreationIncludeCmdLine_Enabled /t REG_DWORD /d 1 /f 1>$null
 
 
