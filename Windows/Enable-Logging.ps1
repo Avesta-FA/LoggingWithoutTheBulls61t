@@ -38,7 +38,7 @@ net start Sysmon64
 #
 #
 ############################
-# For more powershell logging you can also add transcript logging. 
+# For more powershell logging you can also add transcript logging and module logging. 
 #You can also find this on the Microsoft docs.
 $basePath = 'HKLM:\Software\Policies\Microsoft\Windows' +
       '\PowerShell\ScriptBlockLogging'
