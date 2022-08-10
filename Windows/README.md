@@ -1,5 +1,5 @@
-Enable-Logging shows which log sources should be enabled.
-
+Enable-Logging shows which log sources should be enabled.  
+There are better ways of enabling those logs ( e.g GPO) rather than running the script.  
 
 
 
