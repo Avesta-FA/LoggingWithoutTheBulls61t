@@ -39,7 +39,7 @@ net start Sysmon64
 #
 ############################
 #For more powershell logging you can also add transcript logging and module logging. 
-#The GPO location is at Administrative templates > Windows Components > Windows Powershell  
+#The GPO location is at Administrative Templates > Windows Components > Windows Powershell  
 reg.exe add "HKLM\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" /v EnableScriptBlockLogging  /t REG_DWORD /d 1 /f 1>$null
 
 
@@ -131,7 +131,7 @@ auditpol /set /subcategory:"Process Creation" /Success:Enable
 
 
 #The key below enables command line auditing for process creation.  
-#The gpo location is Computer Configuration > Administrative templates > System > Audit Process Creation.  
+#The gpo location is Computer Configuration > Administrative Templates > System > Audit Process Creation.  
 reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit" /v ProcessCreationIncludeCmdLine_Enabled /t REG_DWORD /d 1 /f 1>$null
 
 
