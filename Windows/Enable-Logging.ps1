@@ -6,7 +6,7 @@
 #
 # 
 #
-# You only need to run the script and enjoy all the logs.
+#You only need to run the script and enjoy all the logs.
 # 
 #
 ############################
@@ -38,8 +38,9 @@ net start Sysmon64
 #
 #
 ############################
-# For more powershell logging you can also add transcript logging and module logging. 
-#You can also find this on the Microsoft docs.
+#For more powershell logging you can also add transcript logging and module logging. 
+#The GPO location is at Administrative templates > Windows Components > Windows Powershell  
+#You can also find this on the Microsoft docs.  
 $basePath = 'HKLM:\Software\Policies\Microsoft\Windows' +
       '\PowerShell\ScriptBlockLogging'
 
@@ -113,7 +114,6 @@ auditpol /set /subcategory:"Sensitive Privilege Use" /Success:Enable /Failure:En
 auditpol /set /subcategory:"IPSec Driver" /Success:Enable /Failure:Enable
 
 auditpol /set /subcategory:"Security State Change" /Success:Enable 
-
 
 auditpol /set /subcategory:"Other System Events" /Success:Enable /Failure:Enable
 
