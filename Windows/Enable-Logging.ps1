@@ -1,6 +1,6 @@
 #Author: Avesta Fahimipour  
 #No guarantees, no warranties, and no rights reserved.  
-#This script is intended to be a simple way for cyber security engineers to enable tactical logging on their windows endpoints.  
+#This script is intended to be a simple way for cyber security practitioners to enable tactical logging on their windows endpoints.  
 #You only need to run the script and enjoy all the logs.  
 # 
 #
