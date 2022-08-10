@@ -33,7 +33,7 @@ net start Sysmon64
 #
 #
 ############################
-#For more powershell logging you can also add transcript logging and module logging. 
+#For more powershell logging you can also add transcript logging and module logging (Module Logging is VERY NOISY).  
 #The GPO location is at Administrative Templates > Windows Components > Windows Powershell  
 reg.exe add "HKLM\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" /v EnableScriptBlockLogging  /t REG_DWORD /d 1 /f 1>$null
 
