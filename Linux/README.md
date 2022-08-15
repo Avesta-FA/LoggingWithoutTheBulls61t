@@ -4,6 +4,6 @@ You can use Florian Roths audit.rules config file
 https://github.com/Neo23x0/auditd/tree/master
 
 
-### Bind
+## Bind
 For Bind, you can enable query and response logging.  
 Many configuration files exist you just need to google and use them.  
