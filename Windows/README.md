@@ -4,7 +4,6 @@ There are better ways of enabling those logs ( e.g GPO) rather than running the 
 
 
 
-# Applications  
 ## DNS  
 Assuming that you are not allowed to enable debug logging for DNS:  
 For 2016+: you have access to the DNS server channel in the event logs you can also right-click and under view show analytical logs for Microsoft-Windows-DNSServer (Don't forget to enable it)
