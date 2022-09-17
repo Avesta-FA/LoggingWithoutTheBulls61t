@@ -12,5 +12,5 @@ You can start enabling logging using the order below:
 6.Applications  
 7.Desktops  
 
-While all these logs can't be sent to your log collector because of the volume, you should still enable them on the endpoints for incident response and manual threat hunting.  
+While all these logs can't be sent to your log collector because of the volume, you should still enable them on the endpoints for incident response and manual threat hunting, remember that just because you are generating these logs you don't need to collect them.  
 
