@@ -15,7 +15,7 @@ You can start enabling logging using the order below:
 While all these logs can't be sent to your log collector because of the volume, you should still enable them on the endpoints for incident response and manual threat hunting, remember that just because you are generating these logs you don't need to collect them.  
 
 
-### DesktopLogCollection
+### Desktop Log Collection
 When a SOC (Security Operation Center) decides to collect the logs in a central location they encounter a big problem, and that is volume. This prompts the SOC not to collect desktop logs.  
 But the reality is that users are adversaries first target using techniques like phishing, and then moving towards your crown jewels.  
 This means that if we have detection over our endpoints we may be able to detect adversaries early and reduce the cost of compromise.  
