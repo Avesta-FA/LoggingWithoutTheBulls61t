@@ -2,6 +2,10 @@ Use the Enable-Logging script as a guide for what logs to enable.
 There are better ways of enabling those logs ( e.g GPO) rather than running the script.  
 
 
+### Advanced Audit Policy
+
+
+
 
 
 ## DNS  
