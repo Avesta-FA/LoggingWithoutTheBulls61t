@@ -20,7 +20,7 @@ Copy-Item -Path ".\Sysmon64.exe" -Destination c:\sysmon -ErrorAction Stop
 Copy-Item -Path ".\sysmonconfig-export.xml" -Destination c:\sysmon -ErrorAction Stop
 
 
-"c:\sysmon\Sysmon64.exe" /accepteula -i c:\sysmon\sysmonconfig-export.xml -ErrorAction Stop
+.\sysmon\Sysmon64.exe /accepteula -i c:\sysmon\sysmonconfig-export.xml
 
 net start Sysmon64 
 
@@ -88,8 +88,6 @@ auditpol /set /subcategory:"Account Lockout" /Success:Enable /Failure:Enable
 auditpol /set /subcategory:"Group Membership" /Success:Enable 
 
 auditpol /set /subcategory:"Removable Storage" /Success:Enable /Failure:Enable
-
-auditpol /set /subcategory:"Policy Change" /Success:Enable /Failure:Enable
 
 auditpol /set /subcategory:"Authentication Policy Change" /Success:Enable 
 
