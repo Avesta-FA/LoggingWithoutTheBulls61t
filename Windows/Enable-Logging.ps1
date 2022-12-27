@@ -67,8 +67,6 @@ auditpol /set /subcategory:"File Share" /Success:Enable /Failure:Enable
 
 auditpol /set /subcategory:"Certification Services" /Success:Enable /Failure:Enable
 
-auditpol /set /subcategory:"SAM" /Success:Enable /Failure:Enable
-
 auditpol /set /subcategory:"Other Logon/Logoff Events" /Success:Enable /Failure:Enable
 
 auditpol /set /subcategory:"Credential Validation" /Success:Enable /Failure:Enable
